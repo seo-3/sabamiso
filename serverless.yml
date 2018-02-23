@@ -1,0 +1,23 @@
+service: pipeline-event-to-mackerel
+frameworkVersion: ">=1.14.0 <2.0.0"
+
+# You can pin your service to only deploy with a specific Serverless version
+# Check out our docs for more details
+# frameworkVersion: "=X.X.X"
+
+provider:
+  name: aws
+  runtime: python3.6
+  stage: prd
+  region: ap-northeast-1
+  role: arn:aws:iam::xxx313257585:role/lambda-basic-roll
+
+plugins:
+  - serverless-python-requirements
+
+functions:
+  lambda_handler:
+    handler: event_handler.lambda_handler
+    events:
+    environment:
+          API_KEY: 'xxxxxxxx'

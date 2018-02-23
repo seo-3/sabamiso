@@ -1,0 +1,21 @@
+{
+    "CodePipeline.job": {
+        "id": "xxx950b0-3xxx-47f3-b861-e8ddc71d7f06",
+        "accountId": "xxxxx3257585",
+        "data": {
+            "actionConfiguration": {
+                "configuration": {
+                    "FunctionName": "pipeline-event-to-mackerel-prd-lambda_handler",
+                    "UserParameters": "{ \"service\":\"hoge-service\", \"roles\":\"web\", \"title\":\"application deploy\" }"
+                }
+            },
+            "inputArtifacts": [],
+            "outputArtifacts": [],
+            "artifactCredentials": {
+                "sessionToken": "AgoGb3JpZ2luENn//////////wEaDmFwLW5vcnRoZWFzdC0xIoACCOAnhFy3MgcepHdloEwjS1TLZib0w+SPfKOoxLc7kaF2mYitN29KGUbkbhXB0oRoAdCByhGWIUGKYxkWn8t2PEHbBOMrfX8b2Xj1CKG7sXmNjdw3LzoqyAtN4/VABJ39ewJhAvpgasHIgNfOvuJS9ElQ/4UVjGHRTEojqOxBL/KV/hAT79VC8k68iJAbMNo9telxZmD94YfKje/r+GHCRbGcBivkmvT91bSGz0Dgg68oo6XX2fvDluNZUpaa6nexU1um3IchsXoWZRX3IJ7Y+nTBmhxfwRTiZH44OS5F6/sXdbdcFFpVjki6g5vWccMe3kARrYilGtvWQlFglPH8DSr+Awif//////////8BEAAaDDg3NjMxMzI1NzU4NSIMfFWk41tw5RU4qRH9KtIDkdWHLi1jdl7G8hbLqBnC9HRbX5cvZa20s6zKpJExJgboGfGnFsJ+EO5a06wWzuzm7srbxuuTdrkfQm9MYZ3RqoTtTWHZKBy1UtBVVLFiigeLgEv9LhRwtlEPeW6bN72MOhcSPJEo3GHIL+64IYwKukr4EfvYzez5BvKuS429311RqkgVv2i6S8VnABGJjIBwHdJHh8PMcFCozGFzI+ZLT7jjKE9ZqSgLLxfpcWPyfBIxM1BMDc8GQCsrqYY5VdhT7UKwuWSeO9AvUCHPHAgOjkSeMFlUTJR7utJmyW9oWd5suxQqcM5hdsDi04x2nKBHmOSxVWcyoxSUmMySM6N3ptTUYWmBR0guj6kJQTjRuiKOXVL01TMNk9d6zzOEigNnUmJ24y3Mvh8Faj5JB9kdDduOYn+wj6MAb4l2ErWa4pyS8ZakhzPV19JDyi1WoQMtgrOoGDAKo6cXJzJdRgIZuEUQJ7IMdYBGqVRxkgtBy1/HJ9ZBEGiMhCqC/cveuO8cq/a5Nd3q0Mxaw9Hfy9Udw5W9IvU6aPrqwdHIUKEaZ1Jcu5Z7BjMcDkbUYJCz/99C7NV/DO4m8JMNehO9tg6JZZJQUJlz8BzVUEXT1erQdSgnkzDF/eTTBQ==",
+                "secretAccessKey": "Jr6wjybQHClabPYrxX7i2Nj2ZPnSw4AqIL1rJZGC",
+                "accessKeyId": "ASIAJJQHW7L4R2FXMKOQ"
+            }
+        }
+    }
+}
