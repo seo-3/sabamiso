@@ -1,6 +1,6 @@
 boto3==1.5.1
 botocore==1.8.15
-certifi==2017.11.5
+certifi==2019.11.28
 chardet==3.0.4
 docutils==0.14
 idna==2.6
